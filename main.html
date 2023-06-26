@@ -10,40 +10,31 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<form action="/submit">
-		<label for="id">Name : </label>
-		<input type="text" name="id" placeholder="Name">
-		<br>
-	</br>
-		<label for="id">Phone number : </label>
-		<input type="text" phone="id" placeholder="Phone Number">
-		<br></br>
-		<label for="id">Address : </label>
-		<input type="text" address="id" placeholder="Address">
-		<br></br>
-		<label for="id">Have you ever lived with a Dog before?</label>
-		<br></br>
-		
-		<label for="Yes">Yes</label>
-		<input type="checkbox" name="" id="">
-		<label for="No">No</label>
-		<input type="checkbox" name="" id="">
-		<br>
-	</br>
+	<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="Name">
 
+  <label for="phone">Phone Number:</label>
+  <input type="text" id="phone" placeholder="Phone Number">
 
-<label for="">Please select your preferred breeds</label>
-		<br></br>
-<select id="multiSelect" multiple>
-  <option value="labrador">Labrador Retriever</option>
-  <option value="germanshepherd">German Shepherd</option>
-  <option value="goldenretriever">Golden Retriever</option>
-</select>
-		<br>
-	</br>
-<input type="submit" id="submit" value="submit">
-		<br></br>
-	</form>
+  <label for="address">Address:</label>
+  <input type="text" id="address" placeholder="Address">
+
+  <label for="checkbox">
+    Have you ever lived with a Dog before?
+    <input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+  </label>
+
+  <label for="multiSelect">Please select your preferred breeds:</label>
+  <select id="multiSelect" multiple>
+    <option value="labrador">Labrador Retriever</option>
+    <option value="germanshepherd">German Shepherd</option>
+    <option value="goldenretriever">Golden Retriever</option>
+  </select>
+
+  <input type="submit" id="submit" value="Submit">
+</form>
+
 
 </body>
 
